@@ -10,9 +10,19 @@ const Navbar = () => {
         <img className='h-11 w-auto' src= {logo} alt="logo" />
     </div>
     <div className='mb-4 flex items-center justify-center gap-5 text-2xl '>
-        <FaLinkedin className="align-middle"/>
-        <FaGithub/>
-        <FaSquareXTwitter/>
+
+    <a href="https://www.linkedin.com/in/aditya-gupta-682859238/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin className="align-middle"/>
+        </a>
+
+       <a href="https://github.com/Adigup13" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="align-middle"/>
+        </a>
+
+        <a href="https://x.com/home" target="_blank" rel="noopener noreferrer">
+          <FaSquareXTwitter className="align-middle"/>
+        </a>
+
     </div>
    </nav>
   )
